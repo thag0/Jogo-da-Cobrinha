@@ -71,7 +71,6 @@ public class Logica{
          for(contador = 0; contador < painelJogo.cobrinha.size()-1; contador++){
             painelJogo.cobrinha.get(contador).configurarHitbox(painelJogo.tamanhoBloco);
             if(painelJogo.cobrinha.get(contador).hitbox.intersects(no.hitbox)){
-               System.out.println("colisao");
                colidindo = true;
                break;
             }
